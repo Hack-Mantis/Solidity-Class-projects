@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19; //solidity version
 
-contract firstcontract {
+contract simplestorage {
      
      uint256 public myFavoriteNumber; //default =0
 
@@ -30,7 +30,6 @@ contract firstcontract {
         listOfPeople.push( person({favoriteNumber: _favouriteNumber, name: _name}));
         nameToFavoriteNumber[_name] = _favouriteNumber;
      }
-
 
 }
 
